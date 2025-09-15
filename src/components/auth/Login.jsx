@@ -43,25 +43,23 @@ const Login = ({ onLogin }) => {
     <div
       className="flex min-h-screen bg-cover bg-center"
       // style={{ backgroundImage: "url('back.jpg')" }}
-      
     >
-    
       <div className="w-full max-w-md m-auto">
         <div
-        className="fixed inset-0 -z-10 bg-[url('back.jpg')] bg-cover bg-no-repeat bg-center"
-        aria-hidden="true"
-      />
-      <div
-        className="fixed inset-0 -z-10 bg-gradient-to-br from-green-600/40 to-blue-600/40"
-        aria-hidden="true"
-      />
+          className="fixed inset-0 -z-10 bg-[url('/back.jpg')] bg-cover bg-no-repeat bg-center"
+          aria-hidden="true"
+        />
+        <div
+          className="fixed inset-0 -z-10 bg-gradient-to-br from-green-600/40 to-blue-600/40"
+          aria-hidden="true"
+        />
         <div className="bg-black/55 border-4 border-white rounded-xl shadow-2xl p-8">
           <div className="text-center mb-6">
             <h2 class="text-3xl font-bold text-gray-700 bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent">
-            VANNETRA & WebGIS
-          </h2>
-              
-            <p className="text-white mt-1" >
+              VANNETRA & WebGIS
+            </h2>
+
+            <p className="text-white mt-1">
               Forest Rights Act Decision Support System
             </p>
           </div>
@@ -179,8 +177,6 @@ const Login = ({ onLogin }) => {
 };
 
 export default Login;
-
-
 
 // import { useState } from "react";
 // import { useNavigate, Link } from "react-router-dom";

@@ -236,7 +236,7 @@ const AppContent = () => {
               ) : (
                 <div className="flex-1 flex flex-col items-center justify-center p-4 text-center">
                   <div
-                    className="fixed inset-0 -z-10 bg-[url('back.jpg')] bg-cover bg-no-repeat bg-center"
+                    className="fixed inset-0 -z-10 bg-[url('/back.jpg')] bg-cover bg-no-repeat bg-center"
                     aria-hidden="true"
                   />
                   <div
